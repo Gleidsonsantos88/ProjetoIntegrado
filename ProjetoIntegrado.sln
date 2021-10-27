@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{70287273-BE68-4F79-B6BD-FFEB8285FE44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoIntegrado.API", "ProjetoIntegrado.API\ProjetoIntegrado.API.csproj", "{D347D404-30FA-4972-9C70-030AA0FF23B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D347D404-30FA-4972-9C70-030AA0FF23B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D347D404-30FA-4972-9C70-030AA0FF23B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D347D404-30FA-4972-9C70-030AA0FF23B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D347D404-30FA-4972-9C70-030AA0FF23B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D347D404-30FA-4972-9C70-030AA0FF23B8} = {70287273-BE68-4F79-B6BD-FFEB8285FE44}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {642D536D-3F3B-43CE-B1CF-3A2401E8530E}
+	EndGlobalSection
+EndGlobal
