@@ -14,8 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\IntegratedProject.Business.Customer\IntegratedProject.Business.Customer.csproj" />
-    <ProjectReference Include="..\IntegratedProject.Business\IntegratedProject.Business.OrderService.csproj" />
+    <ProjectReference Include="..\IntegratedProject.Business.Customer\IntegratedProject.Business.csproj" />
   </ItemGroup>
 
 </Project>
