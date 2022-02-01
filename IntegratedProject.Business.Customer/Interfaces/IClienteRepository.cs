@@ -2,7 +2,7 @@
 
 namespace IntegratedProject.Business.Customer.Interfaces
 {
-    public interface IClienteRepository : IRepository<Cliente>
+    public interface IClienteRepository : IRepository<Client>
     {
     }
 }
