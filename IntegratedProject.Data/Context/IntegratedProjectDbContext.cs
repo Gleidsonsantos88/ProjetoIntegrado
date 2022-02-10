@@ -11,5 +11,7 @@ namespace IntegratedProject.Data.Context
         public DbSet<Adress> Adresses { get; set; }
         public DbSet<Technical> Technicals { get; set; }
         public DbSet<Order> Orders { get; set; }
+        public DbSet<Service> Services { get; set; }
+        public DbSet<ServiceOrder> ServiceOrders { get; set; }
     }
 }

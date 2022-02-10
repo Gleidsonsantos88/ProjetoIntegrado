@@ -1,4 +1,6 @@
 ﻿using IntegratedProject.Business.Customer.Models;
+using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace IntegratedProject.Business.Models
@@ -29,7 +31,7 @@ namespace IntegratedProject.Business.Models
         [MaxLength(8)]
         public string Cep { get; set; }
 
-        public virtual Client Client { get; set; }
-        public virtual Order Order { get; set; }
+        //public Client Client { get; set; }
+        //public List<Order> Orders { get; set; }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using IntegratedProject.Business.Customer.Models;
 using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace IntegratedProject.Business.Models
@@ -12,6 +13,8 @@ namespace IntegratedProject.Business.Models
         public bool Active { get; set; }
         public DateTime Created { get; set; }
         public DateTime? Updated { get; set; }
+        public List<ServiceOrder> ServiceOrders { get; set; }
+
     }
 }
 

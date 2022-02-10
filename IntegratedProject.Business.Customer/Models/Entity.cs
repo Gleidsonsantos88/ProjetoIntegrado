@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace IntegratedProject.Business.Customer.Models
 {
@@ -8,7 +9,7 @@ namespace IntegratedProject.Business.Customer.Models
         {
             Id = Guid.NewGuid();
         }
-
+        [Key]
         public Guid Id { get; set; }
     }
 }
